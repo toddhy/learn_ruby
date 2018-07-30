@@ -18,3 +18,17 @@ def sum array
 	sum
 
 end
+
+
+def multiply array
+	count = array.length
+	mult = array[count - 1]
+
+	while count > 1
+		mult *= array[count - 2]
+		count -= 1
+	end
+	
+	mult
+
+end
