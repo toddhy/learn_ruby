@@ -5,6 +5,8 @@ def translate(word)
 	i = 0
 	array = []
 	count.each do |w|
+		i = 0
+		start_cons = ""
 		if vowels.include? w[0]
 			 array << w[0..-1] + 'ay'
 		else

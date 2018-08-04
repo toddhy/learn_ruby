@@ -45,7 +45,7 @@ def titleize title
 	i = 0		
 	placeholder = 0
 	newtitle = ""
-	lw = ["and", "the", "over"]
+	lw = ["in", "of",  "and", "the", "over", "a", "an"]
 	while i <= title.length
 		if title[i] == " "
 			if  lw.include? first_word(title[placeholder, i]) and placeholder > 0
